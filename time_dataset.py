@@ -9,7 +9,6 @@ import tarfile
 import zipfile
 import math
 import csv
-import sktime.utils.load_data
 import collections as co
 import controldiffeq
 
