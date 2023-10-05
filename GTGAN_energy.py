@@ -1034,7 +1034,7 @@ def main():
         data_path = here / 'datasets/energy_data.csv'
         dataset = TimeDataset(data_path, args.seq_len, 'energy', args.missing_value)
         # original_dataset = TimeDataset(data_path, args.seq_len)
-        input_size = 28
+        input_size = 39
     if args.data == 'sine':
         dataset = SineDataset(10000,args.seq_len,5,'sine',args.missing_value)
         input_size = 5
